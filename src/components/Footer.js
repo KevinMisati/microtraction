@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className={classes["footer-content"]}>
                     <h2>
                         Get actionable insights and real world advice from founders & operators who are building venture backed startups in Africa
-                    </p>
+                    </h2>
                     <div className={classes["btn"]}>
                         <a  href="#" className={classes["learn-more-btn"]}>Learn more about Opentraction
                         </a>
