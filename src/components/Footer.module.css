@@ -47,8 +47,10 @@ width: 25rem;
 border-radius: 5px;
 }
 .learn-more-btn{
-background: #292D37;
-color: #FFFFFF;
+background: #292D37 !important;
+color: #FFFFFF !important;
+padding: .5rem 1rem;
+border-radius: 5px;
 }
 .learn-more-btn:hover{
     background: #000;
@@ -60,6 +62,8 @@ line-height: 1.5rem;
 font-size: 1.0526rem;
 cursor: pointer;
 text-decoration: underline;
+color: #fff;
+margin: 1rem auto;
 }
 .follow .made{
     text-decoration: none;
@@ -70,4 +74,14 @@ text-decoration: underline;
         padding: .35rem .7rem;
         width: 20rem;
     }
+    .footer-content h2{
+line-height: 1.625rem;
+font-size: 1.2rem;
+color: #ffffff;
+max-width: 600px;
+text-align: center;
+}
+.learn-more-btn{
+    padding: .35rem .7rem;
+}
 }

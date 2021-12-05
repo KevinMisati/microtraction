@@ -20,6 +20,7 @@ color: #2b90d9;
 }
 .item {
 width: calc(100% / 3 - 30px); 
+margin: 2rem auto;
 }
 .img-container{
     border-radius:50%;
@@ -30,4 +31,30 @@ width: calc(100% / 3 - 30px);
     width: 100%;
     height: 100%;
     border-radius: 50%;
+
+}
+.item p{
+    color:#c2c2c2;
+}
+.item h3 img{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: .5rem;
+}
+@media screen and (max-width:578px){
+    .who{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-container{
+        margin: auto;
+    }
+    .item{
+        width: calc(100% - 20px);
+        text-align: center;
+        margin: 1rem auto;
+    }
+   
 }

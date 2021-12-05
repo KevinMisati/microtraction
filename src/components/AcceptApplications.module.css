@@ -47,4 +47,25 @@
 .img-container img{
     max-width: 100%;
 }
+@media screen and (max-width:578px){
+    .descriptions{
+        flex-direction: column;
+    }
+    .accept-container h2{
+        font-size: 1.3rem;
+    }
+    .img-container{
+        margin-right: .15rem;
+    }
+    .description{
+    width: calc(100% - 20px);
+    justify-content: space-around;
+    font-size: .9rem;
+    line-height: 1.1875rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:1rem auto;
+}
+}
 

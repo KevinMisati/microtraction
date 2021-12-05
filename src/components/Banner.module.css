@@ -76,3 +76,24 @@ border-radius: 5px;
     width:55px;
     height: 55px;
 }
+@media screen and (max-width:578px){
+    .banner-container{
+        height: calc(100vh - 80px);
+        border-bottom: 1px solid #aaa;
+        background:linear-gradient(rgba(221, 221, 221, 8),rgba(221,221,221,.8)), url("https://v.fastcdn.co/u/855ba8b8/15701526-0-breather-163395.jpg") no-repeat rgb(221,221,221) center center / cover;
+    }
+    .banner h1{
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+    }
+    .content p{
+        font-size: 1rem;
+    }
+    .funding-link{
+        padding: .35rem .7rem;
+        font-size: 1.1rem;
+    }
+    .img-container{
+        display: none;
+    }
+}

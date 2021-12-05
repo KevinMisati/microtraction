@@ -46,7 +46,10 @@ const Who = () => {
                                 <img src={img} alt={title} />
                             </div>
                             <div>
-                                <p>{name} <i></i></p>
+                                <h3>
+                                    {name}
+                                    <img src="https://v.fastcdn.co/u/855ba8b8/35554606-0-twitter.png" alt="twitter" />
+                                </h3>
                                 <p>{title}</p>
                             </div>
                         </div>

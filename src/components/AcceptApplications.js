@@ -13,9 +13,11 @@ const AcceptApplications = () => {
                         <div className={classes["img-container"]}>
                             <img src='https://v.fastcdn.co/u/855ba8b8/15701856-0-Icon-1.png' alt="icon" />
                         </div>
-                            <p>
-                                We identify the best early-stage, growth-driven technology startups with the potential to become billion dollar companies
-                            </p>
+                        <p>
+                            We identify the best early-stage, growth-driven technology startups with the potential to become billion dollar companies
+                        </p>
+                        
+                            
                         
                     </div>
                     <div className={classes["description"]}>

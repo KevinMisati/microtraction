@@ -14,7 +14,7 @@ const Footer = () => {
                     <h2>
                         Get actionable insights and real world advice from founders & operators who are building venture backed startups in Africa
                     </h2>
-                    <div className={classes["btn"]}>
+                    <div className={`${classes["btn"]} ${classes["learn-more-btn"]} }`}>
                         <a  href="#" className={classes["learn-more-btn"]}>Learn more about Opentraction
                         </a>
                 </div>
