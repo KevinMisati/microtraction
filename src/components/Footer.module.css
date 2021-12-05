@@ -1,0 +1,58 @@
+.footer-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.footer{
+    width: 100%;
+    max-width: 700px;
+}
+.blog-banner{
+background: rgb(240,240,240);
+height: 12.375rem;
+}
+.btn{
+    text-align: center;
+    margin: 2rem auto;
+}
+.btn a{
+text-decoration: none;
+cursor: pointer;
+text-align: center;
+line-height: 120%;
+background: #2B90D9;
+padding: .5rem 2rem;
+color: #FFFFFF;
+font-size: 1.3003rem;
+font-family: Montserrat;
+font-weight: 400;
+height: 3.75rem;
+width: 25rem;
+border-radius: 5px;
+}
+.learn-more-btn{
+background: #292D37;
+color: #FFFFFF;
+}
+.learn-more-btn:hover{
+    background: #000;
+}
+.footer-content h2{
+font-family: Montserrat;
+text-align: center;
+line-height: 2.625rem;
+font-size: 1.8576rem;
+color: #ffffff;
+}
+.follow p{
+font-family: "Maven Pro";
+text-align: center;
+line-height: 1.5rem;
+font-size: 1.0526rem;
+cursor: pointer;
+text-decoration: underline;
+}
+.follow .made{
+    text-decoration: none;
+}

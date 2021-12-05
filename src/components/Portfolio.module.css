@@ -1,0 +1,29 @@
+.portfolio-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.portfolio-container h2{
+text-align: center;
+line-height: 2.625rem;
+font-size: 1.8576rem;
+color: #2b90d9;
+}
+
+.portfolios{
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+height: 10.7366rem;
+width: calc(100% / 3); 
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}

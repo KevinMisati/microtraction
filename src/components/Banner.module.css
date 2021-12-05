@@ -1,0 +1,78 @@
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(221, 221, 221, 0.6),rgba(221,221,221.6)), url("https://v.fastcdn.co/u/855ba8b8/15701526-0-breather-163395.jpg") no-repeat rgb(221,221,221) center center / cover;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.banner{
+    max-width: 960px;
+}
+.logo-container{
+    width:160px;
+    height:160px;
+    margin: auto ;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+.banner h1{
+font-family: Montserrat;
+line-height: 3.0625rem;
+text-align: center;
+box-sizing: border-box;
+margin: 0;
+font-size: 2.1672rem;
+font-style: inherit;
+color: #353535;
+}
+h1.emphasis{
+
+font-style: inherit;
+box-sizing: border-box;
+color: #2b90d9;
+}
+.content p{
+font-family: "Maven Pro";
+color: #000000;
+text-align: center;
+line-height: 1.75rem;
+font-size: 1.2384rem;
+margin: 2rem auto;
+}
+.content p span{
+font-weight: 700;
+color: #2b90d9;
+}
+
+.funding-link-container{
+    text-align: center;
+    margin: 2rem auto;
+}
+.funding-link{
+text-decoration: none;
+cursor: pointer;
+text-align: center;
+line-height: 120%;
+background: #2B90D9;
+padding: .5rem 2rem;
+color: #FFFFFF;
+font-size: 1.3003rem;
+font-family: Montserrat;
+font-weight: 400;
+height: 3.75rem;
+width: 25rem;
+border-radius: 5px;
+}
+
+.img-container{
+    text-align: center;
+}
+.img-container img{
+    width:55px;
+    height: 55px;
+}

@@ -1,0 +1,43 @@
+.differences-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url("https://v.fastcdn.co/u/855ba8b8/15703281-0-tirza-van-dijk-58298.jpg") center/cover no-repeat;
+    color: #fff;
+    z-index: -5;
+}
+.differences{
+    width: 100%;
+    max-width: 600px;
+}
+.differences h2{
+    text-align: center;
+}
+.diff-list{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 960px;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.diff{
+    width: calc(50% - 20px);
+    position: relative;
+    margin:2rem auto;
+    z-index: 2;
+}
+.diff .number{
+    position: absolute;
+    height: 3.5rem;
+    width: 2.5rem;
+    transform: translate(-20px,-12px);
+    z-index: -1;
+}
+.number img{
+    width: 100%;
+    height: 100%;
+}
