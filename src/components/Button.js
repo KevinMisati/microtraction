@@ -1,9 +1,10 @@
 import React from 'react'
+import classes from "./Button.module.css"
 
-const Button = () => {
+const Button = ({text}) => {
     return (
          <div className={classes.button}>
-                    <a className={classes["button-link"]}>Apply for funding</a>
+                    <a className={classes["button-link"]}>{text}</a>
                 </div>
     )
 }

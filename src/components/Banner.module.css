@@ -1,6 +1,6 @@
 .banner-container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background:linear-gradient(rgb(251, 251, 251,.9),rgba(251,251,251,.9)), url("https://v.fastcdn.co/u/855ba8b8/15701526-0-breather-163395.jpg") no-repeat rgb(221,221,221) center center / cover;
     background-color: green;
     display: flex;
@@ -10,6 +10,7 @@
 }
 .banner{
     max-width: 960px;
+    padding: auto 3rem;
 }
 .logo-container{
     width:160px;
@@ -29,7 +30,6 @@ margin: 0;
 font-size: 2.1672rem;
 font-style: inherit;
 color: #353535;
-max-width: 800px;
 font-size: 2.75rem;
 }
 h1.emphasis{
@@ -37,17 +37,18 @@ h1.emphasis{
 font-style: inherit;
 box-sizing: border-box;
 color: #2b90d9;
-max-width: 700px;
 margin: auto;
+margin-top: 1rem;
 }
 .content p{
-font-family: "Maven Pro";
+font-family: 'Maven Pro', sans-serif;
 color: #000000;
 text-align: center;
 line-height: 1.75rem;
 font-size: 1.2384rem;
 margin: 3rem auto;
 max-width: 650px;
+margin-bottom: 4rem;
 }
 .content p span{
 font-weight: 700;
@@ -65,13 +66,13 @@ cursor: pointer;
 text-align: center;
 line-height: 120%;
 background: #2B90D9;
-padding: 1rem 3rem;
+width: 800px !important;
+padding: 1rem 4rem;
 color: #FFFFFF;
 font-size: 1.5003rem;
 font-family: Montserrat;
 font-weight: 400;
-height: 3.75rem;
-width: 25rem;
+
 border-radius: 5px;
 }
 
@@ -96,9 +97,13 @@ border-radius: 5px;
         font-size: 1.8rem;
         line-height: 2.3rem;
     }
+    h1.emphasis{
+        margin-top: .5rem;
+}
     .content p{
         font-size: 1rem;
         margin: 2rem 0;
+        margin-bottom: 2rem;
     }
     .funding-link{
         padding: .35rem .7rem;

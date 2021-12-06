@@ -1,14 +1,13 @@
 import React from 'react'
 import classes from "./Footer.module.css"
+import Button from "./Button"
 
 const Footer = () => {
     return (
         <div className={classes["footer-container"]}>
             <div className={classes["footer"]}>
                 <div className={classes["blog-banner"]}>
-                    <div className={classes["btn"]}>
-                        <a  href="#" className={classes["funding-link"]}>Visit our blog</a>
-                    </div>
+                    <Button text="Visit our blog" />
                 </div>
                 <div className={classes["footer-content"]}>
                     <h2>

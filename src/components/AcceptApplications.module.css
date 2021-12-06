@@ -23,7 +23,7 @@
 }
 .description{
     width: calc(50% - 10px);
-    font-family: "Maven Pro";
+    font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
     /* #width: 17rem; */
     z-index: 12;

@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from "./Banner.module.css"
+import Button from "./Button"
 
 const Banner = () => {
     return (
@@ -12,9 +13,7 @@ const Banner = () => {
                 <h1>The preferred and most accessible source of pre-seed funding</h1>
                 <h1 className={classes["emphasis"]}>for African technology entrepreneurs</h1>
                 <p>We invest <span>$25k - $150k</span> into Africa's most remarkable teams with technical founders at the earliest stage of their venture</p>
-                <div className={classes["funding-link-container"]}>
-                    <a  href="#" className={classes["funding-link"]}>Apply for funding</a>
-                </div>
+                <Button text="Apply for funding" />
                 
 
             </div>

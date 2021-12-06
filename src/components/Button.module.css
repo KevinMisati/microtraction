@@ -1,0 +1,27 @@
+.button{
+    text-align: center;
+    margin: 2rem auto;
+}
+.button-link{
+text-decoration: none;
+cursor: pointer;
+text-align: center;
+line-height: 120%;
+background: #2B90D9;
+width: 800px !important;
+padding: 1rem 4rem;
+color: #FFFFFF;
+font-size: 1.5003rem;
+font-family: Montserrat;
+font-weight: 400;
+border-radius: 5px;
+}
+@media screen and (max-width:578px){
+    .button{
+        margin-top: 2rem;
+    }
+    .button-link{
+        padding: .35rem .7rem;
+        font-size: 1.1rem;
+    }
+}

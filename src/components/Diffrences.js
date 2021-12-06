@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from "./Differences.module.css"
+import Button from "./Button"
 
 const Diffrences = () => {
     return (
@@ -34,6 +35,7 @@ const Diffrences = () => {
                     <p>Our network gives access to companies that would otherwise be hard to reach</p>
                 </div>
             </div>
+            <Button text="Apply for funding" />
         </div>
     )
 }
