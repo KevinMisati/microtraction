@@ -58,10 +58,7 @@
     .accept-container h2{
         font-size: 1.3rem;
     }
-    .img-container{
-        margin-right: .15rem;
-    }
-    .description{
+     .description{
     width: calc(100% - 20px);
     justify-content: space-around;
     font-size: .9rem;
@@ -71,5 +68,13 @@
     align-items: center;
     margin:1rem auto;
 }
+.description p{
+    width: calc(100% - 70px);
+}
+    .img-container{
+        width: 50px;
+        margin-right: .15rem;
+    }
+   
 }
 
