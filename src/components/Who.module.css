@@ -15,15 +15,13 @@ color: #2b90d9;
 .who{
     width: 100%;
     max-width: 960px;
-    margin: auto;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .item {
 width: calc(100% / 3 - 30px); 
-margin: 2rem auto;
-justify-self: center;
+margin: 2rem 0;
 text-align: center;
 }
 .img-container{
