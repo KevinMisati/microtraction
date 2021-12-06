@@ -35,7 +35,7 @@
     position: absolute;
     height: 3.5rem;
     width: 2.5rem;
-    transform: translate(-20px,-12px);
+    transform: translate(-20px,-10px);
     z-index: -1;
 }
 .number img{
