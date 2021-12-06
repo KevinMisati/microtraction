@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 .accept-content{
     max-width: 960px;
@@ -48,6 +49,9 @@
     max-width: 100%;
 }
 @media screen and (max-width:578px){
+    .accept-container{
+        padding: 1rem;
+    }
     .descriptions{
         flex-direction: column;
     }

@@ -8,6 +8,7 @@
     background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url("https://v.fastcdn.co/u/855ba8b8/15703281-0-tirza-van-dijk-58298.jpg") center/cover no-repeat;
     color: #fff;
     z-index: -5;
+    padding:4rem;
 }
 .differences{
     width: 100%;
@@ -42,6 +43,9 @@
     height: 100%;
 }
 @media screen and (max-width:576px){
+    .differences-container{
+        padding: 2rem;
+    }
     .diff-list{
     flex-direction: column;
     padding: 1rem;

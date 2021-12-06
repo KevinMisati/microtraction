@@ -1,12 +1,12 @@
 .banner-container{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(221, 221, 221, 0.6),rgba(221,221,221.6)), url("https://v.fastcdn.co/u/855ba8b8/15701526-0-breather-163395.jpg") no-repeat rgb(221,221,221) center center / cover;
+    background:linear-gradient(rgb(251, 251, 251,.9),rgba(251,251,251,.9)), url("https://v.fastcdn.co/u/855ba8b8/15701526-0-breather-163395.jpg") no-repeat rgb(221,221,221) center center / cover;
     background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    border-bottom: 1px solid #aaa;
 }
 .banner{
     max-width: 960px;
@@ -29,12 +29,16 @@ margin: 0;
 font-size: 2.1672rem;
 font-style: inherit;
 color: #353535;
+max-width: 800px;
+font-size: 2.75rem;
 }
 h1.emphasis{
 
 font-style: inherit;
 box-sizing: border-box;
 color: #2b90d9;
+max-width: 700px;
+margin: auto;
 }
 .content p{
 font-family: "Maven Pro";
@@ -42,7 +46,8 @@ color: #000000;
 text-align: center;
 line-height: 1.75rem;
 font-size: 1.2384rem;
-margin: 2rem auto;
+margin: 3rem auto;
+max-width: 650px;
 }
 .content p span{
 font-weight: 700;
@@ -52,6 +57,7 @@ color: #2b90d9;
 .funding-link-container{
     text-align: center;
     margin: 2rem auto;
+    margin-top: 4rem;
 }
 .funding-link{
 text-decoration: none;
@@ -59,9 +65,9 @@ cursor: pointer;
 text-align: center;
 line-height: 120%;
 background: #2B90D9;
-padding: .5rem 2rem;
+padding: 1rem 3rem;
 color: #FFFFFF;
-font-size: 1.3003rem;
+font-size: 1.5003rem;
 font-family: Montserrat;
 font-weight: 400;
 height: 3.75rem;
@@ -71,16 +77,20 @@ border-radius: 5px;
 
 .img-container{
     text-align: center;
+    margin-top: 3rem;
 }
 .img-container img{
-    width:55px;
-    height: 55px;
+
+    width:77px;
+    height: 77px;
 }
 @media screen and (max-width:578px){
+    .funding-link-container{
+        margin-top: 2rem;
+    }
     .banner-container{
         height: calc(100vh - 80px);
-        border-bottom: 1px solid #aaa;
-        background:linear-gradient(rgba(221, 221, 221, 8),rgba(221,221,221,.8)), url("https://v.fastcdn.co/u/855ba8b8/15701526-0-breather-163395.jpg") no-repeat rgb(221,221,221) center center / cover;
+        
     }
     .banner h1{
         font-size: 1.8rem;
@@ -88,6 +98,7 @@ border-radius: 5px;
     }
     .content p{
         font-size: 1rem;
+        margin: 2rem 0;
     }
     .funding-link{
         padding: .35rem .7rem;

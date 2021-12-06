@@ -16,22 +16,22 @@ const Diffrences = () => {
                 </div>
                 <div className={classes.diff}>
                     <div className={classes.number}>
-                        <img src="https://v.fastcdn.co/u/855ba8b8/15702706-0-1.png" alt="1" />
+                        <img src="https://v.fastcdn.co/u/855ba8b8/15702716-0-2.png" alt="1" />
                     </div>
-                        <p>Founders can apply for investment at anytime, all year round without an intro</p>
+                    <p>Our investors are Venture Capitalists and Angels on the look out for great startups</p>
                     
                 </div>
                 <div className={classes.diff}>
                     <div className={classes.number}>
-                        <img src="https://v.fastcdn.co/u/855ba8b8/15702706-0-1.png" alt="1" />
+                        <img src="https://v.fastcdn.co/u/855ba8b8/15702701-0-3.png" alt="1" />
                     </div>
-                    <p>Founders can apply for investment at anytime, all year round without an intro</p>
+                    <p>Our startups have a direct line to capital to scale from Seed to Series A and beyond</p>
                 </div>
                 <div className={classes.diff}>
                     <div className={classes.number}>
-                        <img src="https://v.fastcdn.co/u/855ba8b8/15702706-0-1.png" alt="1" />
+                        <img src="https://v.fastcdn.co/u/855ba8b8/15702711-0-4.png" alt="1" />
                     </div>
-                    <p>Founders can apply for investment at anytime, all year round without an intro</p>
+                    <p>Our network gives access to companies that would otherwise be hard to reach</p>
                 </div>
             </div>
         </div>
