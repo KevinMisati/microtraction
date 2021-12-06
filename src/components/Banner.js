@@ -13,7 +13,7 @@ const Banner = () => {
                 <h1>The preferred and most accessible source of pre-seed funding</h1>
                 <h1 className={classes["emphasis"]}>for African technology entrepreneurs</h1>
                 <p>We invest <span>$25k - $150k</span> into Africa's most remarkable teams with technical founders at the earliest stage of their venture</p>
-                <Button text="Apply for funding" />
+                    <Button href="https://tripetto.app/run/U0JMGQLYE8" text="Apply for funding" />
                 
 
             </div>

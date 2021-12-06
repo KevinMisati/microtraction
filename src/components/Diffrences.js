@@ -35,7 +35,7 @@ const Diffrences = () => {
                     <p>Our network gives access to companies that would otherwise be hard to reach</p>
                 </div>
             </div>
-            <Button text="Apply for funding" />
+            <Button href="https://tripetto.app/run/U0JMGQLYE8"  text="Apply for funding" />
         </div>
     )
 }

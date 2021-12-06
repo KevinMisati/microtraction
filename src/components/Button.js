@@ -1,10 +1,10 @@
 import React from 'react'
 import classes from "./Button.module.css"
 
-const Button = ({text}) => {
+const Button = ({text,href}) => {
     return (
          <div className={classes.button}>
-                    <a className={classes["button-link"]}>{text}</a>
+                    <a href={href} className={classes["button-link"]}>{text}</a>
                 </div>
     )
 }
