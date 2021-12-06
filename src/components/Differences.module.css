@@ -60,12 +60,13 @@
 }
 .diff p{
     margin-left: 2rem;
+    font-size: .8rem;
 }
 .diff .number{
     position: absolute;
-    height: 3.5rem;
-    width: 2.5rem;
-    transform: translate(-20px,-12px);
+    height: 3rem;
+    width: 2rem;
+    transform: translate(-20px,-0px);
     z-index: -1;
 }
 }
